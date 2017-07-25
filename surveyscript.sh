@@ -32,19 +32,4 @@ echo "$NAME,$QUEST,$COLOR,$CAPITAL,$SWALLOW,`date --iso-8601=seconds`,$RANDOM" |
 # Suggest running other script, if all survey responses have been collected
 echo "If all survey responses have been collected, then run script databasescript.sh"
 
-#   specify temp directory variable
-#TEMPDIR="./temp"
-#   specify names of variables in a CSV list
-#VARNAMES="name,quest,favoritecolor,assyriancapital,swallowvelocity,datestamp,UID"
-#   make temp directory
-#mkdir $TEMPDIR/
-#   copy all CSV files into temp directory
-#cp /*.csv $TEMPDIR/
-#   Create a new csv with variables in a header row
-#echo "$VARNAMES" > $TEMPDIR/00varheader.csv
-#   concatenate all data
-#cat $TEMPDIR/*.csv > ./`date --iso-8601`-survey-data-compiled.csv
-#   clean up temp files
-#rm -r $TEMPDIR
-
-###
+# End.
