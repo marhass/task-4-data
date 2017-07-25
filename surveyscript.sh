@@ -9,7 +9,7 @@ SWALLOW=$SWALLOW
 
 ##### Ask each question of the user running the script. #####
 # Question 1
-echo "What is your (first) name?"
+echo "What is your name?"
 read NAME
 # Question 2
 echo "What is your quest?"
