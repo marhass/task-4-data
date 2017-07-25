@@ -1,13 +1,12 @@
 #!/bin/bash
 
-##### Define the variables. #####
+# Define the variables
 NAME=$NAME
 QUEST=$QUEST
 COLOR=$COLOR
 CAPITAL=$CAPITAL
 SWALLOW=$SWALLOW
 
-##### Ask each question of the user running the script. #####
 # Question 1
 echo "What is your name?"
 read NAME
@@ -26,9 +25,6 @@ read SWALLOW
 echo "Thank you, Sir $NAME. Your responses have been recorded."
 #Save answers to ALL NAMES' .csv file
 echo "$NAME,$QUEST,$COLOR,$CAPITAL,$SWALLOW,`date --iso-8601=seconds`,$RANDOM" | cat >> /home/cabox/workspace/compileddata.csv
-#Move that file to another directory? And write it to the database?
-
-
 # Suggest running other script, if all survey responses have been collected
 echo "If all survey responses have been collected, then run script databasescript.sh"
 
